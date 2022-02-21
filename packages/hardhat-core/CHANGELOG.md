@@ -1,5 +1,18 @@
 # hardhat
 
+## 2.9.0
+
+### Minor Changes
+
+- bf017963: Add a new RPC method, `hardhat_mine`, which supports the mining of multiple blocks in a single call (#1112)
+
+### Patch Changes
+
+- 04f4b3a4: Added support for BIP39 passphrases (thanks @zhuqicn!)
+- caecc59b: The test task now works correctly when a test file starts with `./` (fixes #2220).
+- 87c50af1: A warning is now shown when a node version greater than the current LTS is used.
+- b18e043b: Improved the performance of requests to remote RPC nodes by the use of connection pooling.
+
 ## 2.8.4
 
 ### Patch Changes
